@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  resource_name: MyString
+  role: MyString
+  start_date: 2024-03-11
+  end_date: 2024-03-11
+  comment: MyText
+  project: one
+
+two:
+  resource_name: MyString
+  role: MyString
+  start_date: 2024-03-11
+  end_date: 2024-03-11
+  comment: MyText
+  project: two

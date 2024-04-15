@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  feedback_type: MyString
+  date_received: 2024-03-11
+  detailed_feedback: MyText
+  action_taken: MyText
+  closure_date: 2024-03-11
+  project: one
+
+two:
+  feedback_type: MyString
+  date_received: 2024-03-11
+  detailed_feedback: MyText
+  action_taken: MyText
+  closure_date: 2024-03-11
+  project: two

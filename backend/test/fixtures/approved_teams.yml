@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  project: one
+  number_of_resources: 1
+  role: MyString
+  availability_percentage: 1
+  duration: MyString
+
+two:
+  project: two
+  number_of_resources: 1
+  role: MyString
+  availability_percentage: 1
+  duration: MyString

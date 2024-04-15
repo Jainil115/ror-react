@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+      text-align: left;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    p {
+      color: #666;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello <%= @stakeholder_name %>,</h1>
+
+  <p>Please find below the updated audit history:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Reviewed By</th>
+        <th>Status</th>
+        <th>Reviewed Section</th>
+        <th>Queries</th>
+        <th>Action Item</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @audit_histories.each do |audit_history| %>
+        <tr>
+          <td><%= audit_history.date %></td>
+          <td><%= audit_history.reviewed_by %></td>
+          <td><%= audit_history.status %></td>
+          <td><%= audit_history.reviewed_section %></td>
+          <td><%= audit_history.queries %></td>
+          <td><%= audit_history.action_item %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+  <p>Thanks and Regards,<br>
+  Promact Infotech Pvt Ltd</p>
+</body>
+</html>

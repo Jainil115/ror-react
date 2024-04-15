@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  version_no: MyString
+  version_type: MyString
+  change: MyText
+  reason: MyText
+  created_by: MyString
+  revision_date: 2024-03-05
+  approve_date: 2024-03-05
+  approved_by: MyString
+  project: one
+
+two:
+  version_no: MyString
+  version_type: MyString
+  change: MyText
+  reason: MyText
+  created_by: MyString
+  revision_date: 2024-03-05
+  approve_date: 2024-03-05
+  approved_by: MyString
+  project: two

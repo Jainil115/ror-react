@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  risk_type: MyString
+  description: MyText
+  severity: MyString
+  impact: MyString
+  remedial_steps: MyText
+  status: MyString
+  closure_date: 2024-03-05
+  project: one
+
+two:
+  risk_type: MyString
+  description: MyText
+  severity: MyString
+  impact: MyString
+  remedial_steps: MyText
+  status: MyString
+  closure_date: 2024-03-05
+  project: two
